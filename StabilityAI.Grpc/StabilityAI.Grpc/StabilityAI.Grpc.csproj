@@ -8,7 +8,7 @@
     
     <PropertyGroup>
         <PackageId>StabilityAI.Grpc</PackageId>
-        <Version>0.0.2</Version>
+        <Version>0.0.3</Version>
         <Authors>Miroljub</Authors>
         <Company>MyDesigns</Company>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
