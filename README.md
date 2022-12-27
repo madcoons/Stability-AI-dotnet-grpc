@@ -23,3 +23,5 @@ public class Example
     }
 }
 ```
+
+For full example, check out for `StabilityAI.Grpc.Example` project.

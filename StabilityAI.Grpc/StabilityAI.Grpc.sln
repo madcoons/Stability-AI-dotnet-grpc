@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StabilityAI.Grpc", "StabilityAI.Grpc\StabilityAI.Grpc.csproj", "{7521B875-8E18-4F6C-89C6-EA05C4AD565E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StabilityAI.Grpc.Example", "StabilityAI.Grpc.Example\StabilityAI.Grpc.Example.csproj", "{DA74B993-6D34-4569-9E0D-2E342E747433}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{7521B875-8E18-4F6C-89C6-EA05C4AD565E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7521B875-8E18-4F6C-89C6-EA05C4AD565E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7521B875-8E18-4F6C-89C6-EA05C4AD565E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA74B993-6D34-4569-9E0D-2E342E747433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA74B993-6D34-4569-9E0D-2E342E747433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA74B993-6D34-4569-9E0D-2E342E747433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA74B993-6D34-4569-9E0D-2E342E747433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
