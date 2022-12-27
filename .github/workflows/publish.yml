@@ -28,4 +28,4 @@ jobs:
       run: dotnet pack --no-build --configuration Release
     - name: Publish
       working-directory: StabilityAI.Grpc
-      run: dotnet nuget push StabilityAI.Grpc/bin/Release/StabilityAI.Grpc.*.nupkg -k ${{secrets.NUGET_API_KEY}} -s https:/www.nuget.org --skip-duplicate
+      run: dotnet nuget push StabilityAI.Grpc/bin/Release/StabilityAI.Grpc.*.nupkg -k ${{secrets.NUGET_API_KEY}} -s https://www.nuget.org --skip-duplicate
