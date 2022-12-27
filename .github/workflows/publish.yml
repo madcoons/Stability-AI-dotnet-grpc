@@ -3,8 +3,6 @@ name: Publish nuget
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   publish:
@@ -13,6 +11,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      submodules: 'true'
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
@@ -28,4 +27,4 @@ jobs:
       run: dotnet pack --no-build --configuration Release
     - name: Publish
       working-directory: StabilityAI.Grpc
-      run: dotnet nuget push StabilityAI.Grpc/bin/Release/StabilityAI.Grpc.*.nupkg -k ${{secrets.NUGET_API_KEY}} -s https://api.nuget.org/v3/index.json --skip-duplicate
+      run: dotnet nuget push StabilityAI.Grpc/bin/Release/StabilityAI.Grpc.*.nupkg -k ${{secrets.NUGET_API_KEY}} -s https:/www.nuget.org --skip-duplicate
