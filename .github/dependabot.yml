@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/"
+    directory: "/StabilityAI.Grpc"
     schedule:
       interval: "weekly"
   - package-ecosystem: "gitsubmodule"
