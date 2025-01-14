@@ -12,7 +12,7 @@ updates:
           - "*"
 
   - package-ecosystem: "nuget"
-    directory: "/"
+    directory: "/StabilityAI.Grpc/"
     schedule:
       interval: "weekly"
       day: "sunday"
